@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-page , .navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.navbar,.footer{
+    background:#1b262c;
+    height: 10vh;
+}
+.board {
+    width: 92vh;
+  height: 80vh;
+  display: grid;
+   justify-content: center;
+   align-content: center; 
+   justify-items: center; 
+  align-items: center;
+  grid-template-columns: repeat(7, auto);
+  border-radius: 20px;
+  background-color:#8d93ab;
+}
+.cell{
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.chat,.inst-lb-div{
+    background-color:#8d93ab;
+    width: 20%;
+    height: 80vh;
+}
